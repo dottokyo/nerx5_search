@@ -1,0 +1,48 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.egg-info/
+.eggs/
+
+# FastAPI
+*.db
+*.sqlite
+*.log
+*.pid
+
+# специфические файлы модели
+/model/*
+
+# системные файлы
+.DS_Store
+Thumbs.db
+
+# docker
+docker-compose.override.yml
+*.log
+*.pid
+
+# виртуальные окружения
+venv/
+env/
+.venv/
+.env/
+
+# PyCharm/VSCode
+.idea/
+.vscode/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Логи
+logs/
+
+# Папки для кэширования данных
+*.h5
+*.pt
+*.pkl
+*.pickle
