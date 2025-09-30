@@ -1,11 +1,17 @@
-# x5-ner
+# ner модель для определения сущностей в тексте
 
 ## how to run locally
 
-```pip install -r requirements.txt```
-
-```gunicorn -w 2 -k uvicorn.workers.UvicornWorker app.main:app --bind "0.0.0.0:8080"```
-
+```
+git clone https://github.com/dottokyo/nerx5_search.git
+```
+```
+pip install -r requirements.txt
+```
+```
+cd nerx5_search
+gunicorn -w 2 -k uvicorn.workers.UvicornWorker app.main:app --bind "0.0.0.0:8080"
+```
 "-w 2" - number of raised workers
 
 "-bind x" - binding address
