@@ -5,3 +5,4 @@ pandas~=2.3.2
 uvicorn==0.24.0
 slowapi==0.1.9
 pymorphy3
+gunicorn
