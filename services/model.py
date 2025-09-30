@@ -8,7 +8,7 @@ import random
 nlp = spacy.load("ru_core_news_md")
 
 #upload data
-csv = pd.read_csv('services/data/train.csv', sep=';')
+csv = pd.read_csv('..services/data/train.csv', sep=';')
 
 train_data = []
 for index, row in csv.iterrows():
@@ -41,5 +41,5 @@ for epoch in range(20):
         nlp.update(batch, drop=0.5, losses=losses, sgd=optimizer)
     print("losses", losses)
 
-nlp.to_disk('x5-ner')
+nlp.to_disk('services/x5-ner')
 
