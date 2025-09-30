@@ -17,6 +17,10 @@ app = FastAPI()
 class PredictRequest(BaseModel):
     input: str
 
+@app.get("/")
+def read_root():
+    return {"message": "Hello, Railway!"}
+
 @app.post("/api/predict")
 # @limiter.limit("25/minute")
 async def predict(request: PredictRequest, req: Request):
