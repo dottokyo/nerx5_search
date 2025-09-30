@@ -27,7 +27,7 @@ def read_root():
 async def predict(request: PredictRequest, req: Request):
     print(f"Received request from {req.client.host}")
     try:
-        doc = await asyncio.to.thread(nlp, request.input)
+        doc = await asyncio.to_thread(nlp, request.input)
     except Exception as e:
         return {"error": str(e)}
     entities = []
