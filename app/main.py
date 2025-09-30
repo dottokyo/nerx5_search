@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi import Request
 from pydantic import BaseModel
 import spacy
+import asyncio
 # from slowapi import Limiter, _rate_limit_exceeded_handler
 # from slowapi.util import get_remote_address
 # from slowapi.errors import RateLimitExceeded
@@ -26,7 +27,7 @@ def read_root():
 async def predict(request: PredictRequest, req: Request):
     print(f"Received request from {req.client.host}")
     try:
-        doc = nlp(request.input)
+        doc = await asyncio.to.thread(nlp, request.input)
     except Exception as e:
         return {"error": str(e)}
     entities = []
