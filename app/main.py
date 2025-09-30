@@ -6,8 +6,8 @@ import spacy
 # from slowapi.util import get_remote_address
 # from slowapi.errors import RateLimitExceeded
 
-
-nlp = spacy.load("../x5-ner")
+model_path = 'models/x5-ner'
+nlp = spacy.load(model_path)
 
 # limiter = Limiter(key_func=get_remote_address)
 app = FastAPI()
