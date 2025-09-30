@@ -6,30 +6,31 @@
   <component name="ChangeListManager">
     <list default="true" id="21c57534-8207-422b-b677-110e2044e37f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x5-ner/attribute_ruler/patterns" beforeDir="false" afterPath="$PROJECT_DIR$/services/x5-ner/attribute_ruler/patterns" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x5-ner/config.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/services/x5-ner/config.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x5-ner/lemmatizer/lookups/lookups.bin" beforeDir="false" afterPath="$PROJECT_DIR$/services/x5-ner/lemmatizer/lookups/lookups.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x5-ner/meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/services/x5-ner/meta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x5-ner/morphologizer/cfg" beforeDir="false" afterPath="$PROJECT_DIR$/services/x5-ner/morphologizer/cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x5-ner/morphologizer/model" beforeDir="false" afterPath="$PROJECT_DIR$/services/x5-ner/morphologizer/model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x5-ner/ner/cfg" beforeDir="false" afterPath="$PROJECT_DIR$/services/x5-ner/ner/cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x5-ner/ner/model" beforeDir="false" afterPath="$PROJECT_DIR$/services/x5-ner/ner/model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x5-ner/ner/moves" beforeDir="false" afterPath="$PROJECT_DIR$/services/x5-ner/ner/moves" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x5-ner/parser/cfg" beforeDir="false" afterPath="$PROJECT_DIR$/services/x5-ner/parser/cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x5-ner/parser/model" beforeDir="false" afterPath="$PROJECT_DIR$/services/x5-ner/parser/model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x5-ner/parser/moves" beforeDir="false" afterPath="$PROJECT_DIR$/services/x5-ner/parser/moves" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x5-ner/senter/cfg" beforeDir="false" afterPath="$PROJECT_DIR$/services/x5-ner/senter/cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x5-ner/senter/model" beforeDir="false" afterPath="$PROJECT_DIR$/services/x5-ner/senter/model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x5-ner/tok2vec/cfg" beforeDir="false" afterPath="$PROJECT_DIR$/services/x5-ner/tok2vec/cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x5-ner/tok2vec/model" beforeDir="false" afterPath="$PROJECT_DIR$/services/x5-ner/tok2vec/model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x5-ner/tokenizer" beforeDir="false" afterPath="$PROJECT_DIR$/services/x5-ner/tokenizer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x5-ner/vocab/key2row" beforeDir="false" afterPath="$PROJECT_DIR$/services/x5-ner/vocab/key2row" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x5-ner/vocab/lookups.bin" beforeDir="false" afterPath="$PROJECT_DIR$/services/x5-ner/vocab/lookups.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x5-ner/vocab/strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/services/x5-ner/vocab/strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x5-ner/vocab/vectors" beforeDir="false" afterPath="$PROJECT_DIR$/services/x5-ner/vocab/vectors" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x5-ner/vocab/vectors.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/services/x5-ner/vocab/vectors.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/x5-ner/attribute_ruler/patterns" beforeDir="false" afterPath="$PROJECT_DIR$/x5-ner/attribute_ruler/patterns" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/x5-ner/config.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/x5-ner/config.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/x5-ner/lemmatizer/lookups/lookups.bin" beforeDir="false" afterPath="$PROJECT_DIR$/x5-ner/lemmatizer/lookups/lookups.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/x5-ner/meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/x5-ner/meta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/x5-ner/morphologizer/cfg" beforeDir="false" afterPath="$PROJECT_DIR$/x5-ner/morphologizer/cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/x5-ner/morphologizer/model" beforeDir="false" afterPath="$PROJECT_DIR$/x5-ner/morphologizer/model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/x5-ner/ner/cfg" beforeDir="false" afterPath="$PROJECT_DIR$/x5-ner/ner/cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/x5-ner/ner/model" beforeDir="false" afterPath="$PROJECT_DIR$/x5-ner/ner/model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/x5-ner/ner/moves" beforeDir="false" afterPath="$PROJECT_DIR$/x5-ner/ner/moves" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/x5-ner/parser/cfg" beforeDir="false" afterPath="$PROJECT_DIR$/x5-ner/parser/cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/x5-ner/parser/model" beforeDir="false" afterPath="$PROJECT_DIR$/x5-ner/parser/model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/x5-ner/parser/moves" beforeDir="false" afterPath="$PROJECT_DIR$/x5-ner/parser/moves" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/x5-ner/senter/cfg" beforeDir="false" afterPath="$PROJECT_DIR$/x5-ner/senter/cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/x5-ner/senter/model" beforeDir="false" afterPath="$PROJECT_DIR$/x5-ner/senter/model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/x5-ner/tok2vec/cfg" beforeDir="false" afterPath="$PROJECT_DIR$/x5-ner/tok2vec/cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/x5-ner/tok2vec/model" beforeDir="false" afterPath="$PROJECT_DIR$/x5-ner/tok2vec/model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/x5-ner/tokenizer" beforeDir="false" afterPath="$PROJECT_DIR$/x5-ner/tokenizer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/x5-ner/vocab/key2row" beforeDir="false" afterPath="$PROJECT_DIR$/x5-ner/vocab/key2row" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/x5-ner/vocab/lookups.bin" beforeDir="false" afterPath="$PROJECT_DIR$/x5-ner/vocab/lookups.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/x5-ner/vocab/strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/x5-ner/vocab/strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/x5-ner/vocab/vectors" beforeDir="false" afterPath="$PROJECT_DIR$/x5-ner/vocab/vectors" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/x5-ner/vocab/vectors.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/x5-ner/vocab/vectors.cfg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,10 +72,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/services" />
       <recent name="$PROJECT_DIR$/services/data" />
-      <recent name="$PROJECT_DIR$/app" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>

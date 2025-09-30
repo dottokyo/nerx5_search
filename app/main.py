@@ -7,7 +7,7 @@ import spacy
 # from slowapi.errors import RateLimitExceeded
 
 
-nlp = spacy.load("../services/x5-ner")
+nlp = spacy.load("../x5-ner")
 
 # limiter = Limiter(key_func=get_remote_address)
 app = FastAPI()
