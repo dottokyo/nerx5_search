@@ -7,7 +7,8 @@ import random
 
 nlp = spacy.load("ru_core_news_md")
 
-csv = pd.read_csv('train.csv', sep=';')
+#upload data
+csv = pd.read_csv('services/data/train.csv', sep=';')
 
 train_data = []
 for index, row in csv.iterrows():
@@ -26,6 +27,7 @@ for _, annotations in train_data:
     for _, _, label in annotations['entities']:
         ner.add_label(label)
 
+#or begin_training()
 optimizer = nlp.resume_training()
 
 for epoch in range(20):
